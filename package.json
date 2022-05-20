@@ -1,0 +1,22 @@
+{
+  "name": "porfolio3",
+  "version": "1.0.0",
+  "description": "this is my porfolio with tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rMamitiana/Porfolio-Dev.git"
+  },
+  "author": "Randimbinirina Mamitiana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rMamitiana/Porfolio-Dev/issues"
+  },
+  "homepage": "https://github.com/rMamitiana/Porfolio-Dev#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}

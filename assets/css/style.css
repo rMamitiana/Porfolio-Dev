@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    section {
+        @apply container mx-auto sm:px-4 md:px-8 py-4;
+    }
+}
+
+@layer components {
+    .section-title {
+        @apply flex flex-row justify-center lg:justify-start items-center text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-blue-50 px-8 sm:px-0;
+    }
+
+    .gift-icon {
+        @apply w-12 md:w-16 inline-block p-1 rounded-full border border-blue-600;
+    }
+
+    .card-educ-body {
+        @apply p-5 relative;
+    }
+
+    .card-educ-title {
+        @apply mb-2 text-xl md:text-2xl font-bold tracking-tight text-blue-50;
+    }
+
+    .card-text {
+        @apply mb-3 font-normal text-gray-700;
+    }
+
+    .card-educ-bage {
+        @apply absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 -rotate-45 inline-flex items-center px-2 text-xs font-medium text-center text-blue-50 bg-blue-700 rounded-full hover:bg-blue-800 focus:outline-none;
+    }
+}
